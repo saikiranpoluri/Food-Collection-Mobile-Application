@@ -1,4 +1,4 @@
-# Food-Collection-Mobile-Application
+# Food-Collection-Mobile-Application connected to backend Firebase
 A study by Food Ministry, Government of India found that about 20% of food at social events such as weddings goes waste. Food waste also occurs at parties, functions and restaurants. This is a sad state of affairs when one considers that two lakh street children in Mumbai go to sleep hungry every day. Therefore, leftover food donation is the need of the hour to counter both malnutrition and food waste!
 # Leftover food collection helps to feed the poor…
 Food banks and food collection NGOs have geared up to tackle the food waste challenge in India’s major cities. They have set up waste leftover food helplines so that restaurants, caterers, wedding venues and party organizers who intimate availability of food for donation.
