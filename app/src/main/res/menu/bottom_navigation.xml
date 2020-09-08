@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_donations"
+        android:icon="@drawable/ic_baseline_add_to_photos_24"
+        android:title="Donations" />
+    <item
+        android:id="@+id/nav_spots"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="hunger spots" />
+</menu>

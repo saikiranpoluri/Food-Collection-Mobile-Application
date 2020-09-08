@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hungerspot_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center_horizontal"
+            android:text="Child Care Welfare Society"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/hungerspot_number"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/hungerspot_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center_horizontal"
+            android:text="H.No: 41-20/1-11, Sri Krishnanilayam,
+                Gunturuvari Street, Krishna Lanka, Vijayawada
+                            520 013  , 949375230"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="fill_parent"
+            android:id="@+id/line1"
+            android:layout_below="@+id/hungerspot_number"
+            android:layout_height="10dp"
+            android:background="#ffff00" />
+
+        <TextView
+            android:id="@+id/hungers_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/line1"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="AMMA OLD AGE HOME"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hungers_number"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/hungers_name"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:text="# 29-26-51A, Tagore Hospital Road, Jadagamvari Street, Suryaraopet, Vijayawada, AP 520002
+                            9945321782"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="fill_parent"
+            android:id="@+id/line2"
+            android:layout_below="@+id/hungers_number"
+            android:layout_height="10dp"
+            android:background="#ffff00" />
+
+        <TextView
+            android:id="@+id/hunger_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/hungers_number"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="Grama Seva Samithi"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hunger_number"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/hunger_name"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-2dp"
+            android:gravity="center_horizontal"
+            android:text=" BLOCK NO. 73, YSR COLONY, JAKKAMPUDI,
+                        VIJAYAWADA, KRISHNA DT, AP- 520012
+                           789015264"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:id="@+id/line3"
+            android:layout_below="@+id/hunger_number"
+            android:layout_height="10dp"
+            android:background="#ffff00" />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

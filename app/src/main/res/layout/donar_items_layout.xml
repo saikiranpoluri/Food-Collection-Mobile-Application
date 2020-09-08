@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+
+            android:id="@+id/donar_display_image"
+            android:layout_width="153dp"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="229dp"
+            android:layout_marginRight="229dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/donar_display_name"
+            android:layout_width="258dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/donar_display_image"
+            android:layout_marginLeft="153dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center_horizontal"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/donar_number"
+            android:layout_width="258dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/donar_display_name"
+            android:layout_marginLeft="153dp"
+            android:gravity="center_horizontal"
+            android:text="Product Price"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/donar_address"
+            android:layout_width="258dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/donar_number"
+            android:layout_marginLeft="153dp"
+            android:gravity="center_horizontal"
+            android:text="Product Description"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

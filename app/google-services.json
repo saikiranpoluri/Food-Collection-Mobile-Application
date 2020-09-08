@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "30844900604",
+    "firebase_url": "https://donatefooddon-twaste.firebaseio.com",
+    "project_id": "donatefooddon-twaste",
+    "storage_bucket": "donatefooddon-twaste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30844900604:android:f97d4aee7d81bfdc9f3379",
+        "android_client_info": {
+          "package_name": "com.example.donatefooddontwaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30844900604-cfb2q6upu72qfeij0esor44ep29fvtnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donatefooddontwaste",
+            "certificate_hash": "2565581c487256cbca991f40384266a36110d597"
+          }
+        },
+        {
+          "client_id": "30844900604-lvp5cobs6brk1m9am980u4pa276comme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtD02PFmSwHG0AXtUJW_Gjzw7xMK00Ib0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30844900604-lvp5cobs6brk1m9am980u4pa276comme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
